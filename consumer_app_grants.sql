@@ -15,7 +15,7 @@ call system$wait(3);
 /**** install application from marketplace listing ****/
 /* ensure your snowsight role context is set to ppd_consumer_role
   follow instructions here to install a private listing: 
-  https://other-docs.snowflake.com/en/LIMITEDACCESS/nativeapps-consumer-listings.html#installing-an-application-from-a-privately-shared-listing
+  https://docs.snowflake.com/en/nativeapps-consumer-listings.html#installing-an-application-from-a-privately-shared-listing
 */
 
 grant application role ppd_demo_app.ppd_db_role to role ppd_consumer_role;
