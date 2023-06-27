@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Setup Script v1
+Script:             Limited Access Data - Native App - Setup Script v1
 Create Date:        2023-05-16
 Author:             M. Rainey
 Description:        Sample Native App -- Provider application setup script contains the objects that

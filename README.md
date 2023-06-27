@@ -1,4 +1,4 @@
-# Privacy Protected Data Sample Framework
+# Limited Access Data Sample Framework
 Copyright (c) 2023 Snowflake Inc. All Rights Reserved.
 
 **For use with Snowflake Native Applications Preview feature**
@@ -19,8 +19,8 @@ To set up 1 consumer and 1 provider:
 3. Provider account: in SnowSQL, upload the setup_script.sql and manifest.yml files to the stage location<br/>
 
 ```console
-PUT file:///Users/mrainey/Documents/privacy-protected-data/v1/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
-PUT file:///Users/mrainey/Documents/privacy-protected-data/v1/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+PUT file:///Users/mrainey/Documents/limited-access-data/v1/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+PUT file:///Users/mrainey/Documents/limited-access-data/v1/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
 ```
 4. Provider account: run provider_app_version.sql<br/>
 5. Provider account: Add private listing using provider studio<br/>

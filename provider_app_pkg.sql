@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Provider Application Package
+Script:             Limited Access Data - Native App - Provider Application Package
 Create Date:        2023-05-16
 Author:             M. Rainey
 Description:        Sample Native App -- Provider creating the application package object. Depends on
@@ -40,8 +40,8 @@ create schema if not exists code;
 create or replace STAGE files_v1;
 
 /* add application files to stage via snowsql */
--- PUT file:///Users/mrainey/Documents/privacy-protected-data/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
--- PUT file:///Users/mrainey/Documents/privacy-protected-data/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+-- PUT file:///Users/mrainey/Documents/limited-access-data/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+-- PUT file:///Users/mrainey/Documents/limited-access-data/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
 
 /* test creating the app locally
 CREATE APPLICATION ppd_demo_app FROM APPLICATION PACKAGE ppd_demo_package;

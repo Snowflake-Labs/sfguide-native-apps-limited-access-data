@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Consumer Initialization
+Script:             Limited Access Data - Native App - Consumer Initialization
 Create Date:        2023-05-16
 Author:             M. Rainey
 Description:        Sample Native App -- Consumer side object and data initialization

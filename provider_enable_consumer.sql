@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Provider Enable Consumer
+Script:             Limited Access Data - Native App - Provider Enable Consumer
 Create Date:        2023-05-16
 Author:             M. Rainey
 Description:        Sample Native App -- Provider enabling the consumer for submitting requests. Depends 

@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Provider Application Version
+Script:             Limited Access Data - Native App - Provider Application Version
 Create Date:        2023-04-20
 Author:             M. Rainey
 Description:        Sample Native App -- Provider altering the application package object to add a new 
@@ -16,8 +16,8 @@ call system$wait(3);
 USE WAREHOUSE ppd_WH;
 
 /* ensure application files have been added to stage via snowsql */
--- PUT file:///Users/mrainey/Documents/privacy-protected-data/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
--- PUT file:///Users/mrainey/Documents/privacy-protected-data/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+-- PUT file:///Users/mrainey/Documents/limited-access-data/manifest.yml @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
+-- PUT file:///Users/mrainey/Documents/limited-access-data/setup_script.sql @ppd_demo_dev.code.files_v1 auto_compress=false overwrite=true;
 
 /* cleanup
 ALTER APPLICATION PACKAGE ppd_demo_package

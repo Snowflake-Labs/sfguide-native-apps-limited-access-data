@@ -1,8 +1,8 @@
 #version identifier
 version:
-  name: privacy_protected_data_sample_framework
-  label: “Privacy Protected Data Sample v1.0”
-  comment: “Privacy Protected Data Sample code”
+  name: limited_access_data_sample_framework
+  label: “Limited Access Data Sample v1.0”
+  comment: “Limited Access Data Sample code”
 
 #artifacts that are distributed from this version of the package
 artifacts:

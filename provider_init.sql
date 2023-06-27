@@ -1,5 +1,5 @@
 /*************************************************************************************************************
-Script:             Privacy Protected Data - Native App - Provider Initialization
+Script:             Limited Access Data - Native App - Provider Initialization
 Create Date:        2023-05-16
 Author:             M. Rainey
 Description:        Sample Native App -- Provider object and data initialization
